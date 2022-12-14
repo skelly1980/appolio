@@ -1,0 +1,15 @@
+main {
+    width: 52%;
+    border-radius: 0 240px 0 0;
+    background-color: #000;
+
+    .container {
+        @include full-container();
+
+        .bg-image .row {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

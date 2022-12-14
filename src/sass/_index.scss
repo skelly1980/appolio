@@ -1,0 +1,23 @@
+@import 'vendor/normalize';
+
+/*Base Styles*/
+@import 'base/properties';
+@import 'base/fonts';
+@import 'base/typography';
+@import 'base/utilities';
+
+/* Components*/
+@import 'components/buttons';
+@import 'components/mixins';
+
+/* Layout styles*/
+@import 'layout/header';
+@import 'layout/dropdowns';
+@import 'layout/main';
+@import 'layout/section';
+@import 'layout/section-form';
+@import 'layout/form-content';
+@import 'layout/ready-hire';
+@import 'layout/card';
+@import 'layout/footer';
+@import 'layout/copyright';

@@ -1,0 +1,41 @@
+.form-content {
+    @include container();
+    margin: 40px auto;
+    padding: 0 6em;
+
+    .form-content-image {
+
+        .author-bio {
+            border-radius: 100%;
+            width: 80px;
+            height: 80px;
+            margin: 10em auto;
+        }
+
+        .content {
+            vertical-align: middle;
+            display: inline-block;
+            padding-left: 30px;
+
+            h3 {
+                margin-bottom: 0;
+                line-height: 1.6em;
+                margin-bottom: 5px;
+
+                a {
+                    font-size: 14px;
+                    color: $btn-third;
+                    text-transform: none;
+                    text-decoration: 1px underline #000;
+                }
+            }
+
+            p {
+                max-width: 55%;
+                opacity: .7;
+                line-height: 1.8em;
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.nav-btn-primary {
+    padding: 10px 25px;
+    background-color: #000;
+    border: 2px solid #00d08a;
+    border-radius: 50px;
+
+    a {
+        text-transform: uppercase;
+
+        &:hover {
+            color: #00d08a;
+        }
+    }
+
+}
+
+.nav-btn-secondary {
+    padding: 15px 20px;
+    background-color: $btn-primary;
+    border-radius: 50px;
+
+    a {
+        color: #000;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}
+
+.nav-btn-third {
+    width: 145.57px;
+    height: 46px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #fff;
+    border: none;
+
+    a {
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    &:hover {
+        text-decoration: underline 2px $btn-primary;
+    }
+}
+
+.main-btn {
+    padding: 4px 10px;
+    margin: 5px 6px 0 5px;
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+
+    a {
+        color: #00a1ab;
+        opacity: 1;
+        font-size: 20px;
+        font-weight: 400;
+
+        &:hover {
+            background-color: #00d08a;
+            cursor: pointer;
+        }
+    }
+}
+
+.hs-button {
+    width: auto;
+    padding: 20px 40px;
+    background-color: $btn-primary;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.footer-button {
+    border-radius: 200px;
+    border: none;
+    background-color: #00d08a;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 3% 7.5%;
+    margin-bottom: 30px;
+}

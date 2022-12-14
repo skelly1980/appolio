@@ -1,0 +1,30 @@
+header {
+
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    .container {
+        width: 100%;
+        background-color: $background;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em 45px;
+
+        nav {
+            ul {
+                align-items: center;
+
+                li {
+                    position: relative;
+                    color: #ffffff;
+                    margin: 0 1em;
+                    font-size: 14px;
+
+                    a:hover {
+                        text-decoration: underline $btn-primary;
+                    }
+                }
+            }
+        }
+    }
+}

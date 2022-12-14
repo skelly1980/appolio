@@ -1,0 +1,26 @@
+.sub-menu-resources {
+    display: none;
+    position: absolute;
+    width: 240px;
+    height: 276px;
+    top: 30px;
+    left: -110px;
+    background-color: #0b2522;
+    border-radius: 5px;
+
+    ul li a:hover {
+        text-decoration: underline #00d08a;
+    }
+
+    ul {
+        padding: 20px 10px 10px;
+    }
+
+    ul li {
+        padding: .8em 0;
+    }
+
+    ul .fa {
+        padding-left: 10em;
+    }
+}

@@ -1,0 +1,34 @@
+.sub-menu {
+    display: none;
+    position: absolute;
+    width: 950px;
+    height: 288px;
+    top: 40px;
+    left: -110px;
+    background-color: #0b2522;
+    border-radius: 5px;
+
+    ul li a:hover {
+        text-decoration: underline #00d08a;
+    }
+
+    ul {
+        padding-right: 1em;
+    }
+
+    ul li {
+        padding: .5em 0;
+    }
+
+    ul:nth-of-type(4) {
+        display: flex;
+        width: 256px;
+        height: 288px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: #00d08a;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+}

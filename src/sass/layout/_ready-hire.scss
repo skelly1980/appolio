@@ -1,0 +1,107 @@
+.healthcare-hire {
+    width: 100%;
+    background-color: rgba($color: #929675, $alpha: 0.3);
+
+    .healthcare-container {
+        @include container();
+        padding: 3em 0;
+        gap: 5em;
+
+        .container-1 {
+            text-align: center;
+
+            .heading-1 {
+                color: #000;
+                font-size: 50px;
+                line-height: 56px;
+            }
+
+            .heading-2 {
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 50px;
+                color: #000;
+                padding-bottom: 27px;
+            }
+
+            .job {
+                font-size: 11px;
+                line-height: 24px;
+                padding: 0;
+            }
+        }
+
+        .container-2 {
+            text-align: center;
+            width: 100%;
+            padding: 2em 0;
+
+            p {
+                a {
+                    color: $btn-third;
+                }
+            }
+
+            .form-container {
+                padding: 2em;
+
+                form {
+                    position: static;
+                    border: none;
+                    display: block;
+                    overflow: hidden;
+                    width: 100%;
+
+                    .form-control {
+                        justify-content: center;
+                        gap: 4em;
+
+                        .first-name,
+                        .last-name,
+                        .p-number,
+                        .job-title {
+                            padding: 1em 0;
+
+                            label {
+                                text-align: left;
+                                display: block;
+                                width: 80%;
+                                font-weight: 500;
+                                line-height: 20px;
+                                padding-top: 0;
+                                margin-bottom: 4px;
+
+                                span {
+                                    color: red;
+                                }
+                            }
+
+                            .input {
+                                input {
+                                    width: 100%;
+                                    padding: 5px 35px;
+                                    border-radius: 10px;
+                                }
+                            }
+                        }
+
+                        .email {
+                            text-align: left;
+                            padding: 2em 0 0 25px;
+
+                            span {
+                                color: red;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 5px 35px;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
